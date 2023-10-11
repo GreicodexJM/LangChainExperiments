@@ -1,0 +1,28 @@
+<invoices>
+  <invoice>
+    <invoice_id>ABC-1234</invoice_id>
+    <buyer>
+      <name>John Doe</name>
+      <address>123 Test Street, AZ. 44023</address>
+    </buyer>
+    <seller>
+      <name>ABC Petstore</name>
+      <address>456 Kingswood, CA. 88491</address>
+    </seller>
+  </invoice>
+  <lines>
+    <line>
+      <sku>9938823</sku>
+      <desc>Desk led lamp, 13"</desc>
+      <qty>1</qty>
+      <price>49.25</price>
+    </line>
+    <line>
+      <sku>88849394</sku>
+      <desc>Biker helmet - pikachu</desc>
+      <qty>1</qty>
+      <price>145.20</price>
+    </line>
+  </lines>
+  <tax>8%</tax>
+</invoices>

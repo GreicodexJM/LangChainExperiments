@@ -1,0 +1,62 @@
+{
+    "type": "object",
+    "properties": {
+      "invoices": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "invoice_id": {
+              "type": "string"
+            },
+            "buyer": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "address": {
+                  "type": "string"
+                }
+              }
+            },
+            "seller": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "address": {
+                  "type": "string"
+                }
+              }
+            },
+            "lines": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "sku": {
+                    "type": "string"
+                  },
+                  "desc": {
+                    "type": "string"
+                  },
+                  "qty": {
+                    "type": "integer"
+                  },
+                  "price": {
+                    "type": "number"
+                  }
+                }
+              }
+            },
+            "tax": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+  

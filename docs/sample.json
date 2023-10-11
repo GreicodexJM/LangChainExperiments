@@ -1,0 +1,13 @@
+{
+    "invoices": [ {
+  "header":{
+    "invoice_id": "ABC-1234",
+    "buyer": { "name": "John Doe", "address": "123 Test Street, AZ. 44023"},
+  "seller": {"name":"ABC Petstore","address":"456 Kingswood, CA. 88491"}
+  },"lines":[
+    {"sku":"9938823","desc":"Desk led lamp, 13\"","qty":1,"price":49.25},
+  {"sku":"88849394","desc":"Biker helmet - pikachu","qty":1,"price":145.20},
+  ],
+  "tax":"8%"
+}]
+  }
